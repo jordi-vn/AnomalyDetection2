@@ -1,0 +1,43 @@
+import("grid")
+import("proxy")
+export(proximus,
+       rockCluster, rockLink,
+       ccfkms,
+       sdists,sdists.trace,sdists.center,sdists.center.align,
+       cluster.dist,
+       gknn,
+       as.dummy,
+       lmplot,clmplot,
+       rlbmat,
+       order.length,order.optimal,order.greedy,
+       order.dist,order.matrix,order.data.frame,
+       stress,stress.dist,
+       implot,
+       circleplot.dist)
+S3method("as.dummy",logical)
+S3method("as.dummy",integer)
+S3method("as.dummy",factor)
+S3method("as.dummy",matrix)
+S3method("as.dummy",list)
+S3method("as.dummy","data.frame")
+S3method(predict,"rock")
+S3method(fitted,"rock")
+S3method(print,rock)
+S3method(fitted,proximus)
+S3method(print,proximus)
+S3method(summary,proximus)
+S3method(print,"summary.proximus")
+S3method(predict,ccfkms)
+S3method(cut,ordered)
+S3method(plot,"sdists.graph")
+useDynLib("cba", .registration = TRUE)
+## 2015/7
+importFrom("methods",
+           "as")
+importFrom("stats", 
+           "hclust", "runif")
+importFrom("graphics", 
+           "plot", "lines", "text", "segments", "axis", "image.default")
+importFrom("grDevices", 
+            "heat.colors", "gray.colors")
+

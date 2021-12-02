@@ -1,0 +1,31 @@
+Mushroom                Mushroom Data Set
+Votes                   Congressional Votes 1984 Data Set
+as.dummy                Dummy Coding
+ccfkms                  Clustering with Conjugate Convex Functions
+circleplot.dist         Plotting Distance Graphs
+clmplot                 Plotting Logical Matrices
+cluster.dist            Clustering a Sparse Symmetric Distance Matrix
+cut.ordered             Converting Ordered Factors
+fitted.proximus         Extract from a Proximus Object
+gknn                    Generalized k-Nearest Neighbor Classification
+implot                  Matrix Image Plots
+lminter                 Interpolating Logical Matrices
+lmplot                  Plotting Logical Matrices
+order.dist              Improving the Presentation of Matrix Objects
+order.greedy            Hierarchical Greedy Ordering
+order.length            Conciseness of Presentation Measures
+order.optimal           Optimal Leaf Ordering of Binary Trees.
+plot.sdists.graph       Plotting Edit Transcripts and Sequence
+                        Alignments
+predict.ccfkms          Clustering with Conjugate Convex Functions.
+predict.rock            Rock Clustering
+proximus                Proximus
+rlbmat                  Block Uniform Logical Matrix Deviates
+rockCluster             Rock Clustering
+sdists                  Sequence Distance Computation
+sdists.center           Centroid Sequences
+sdists.center.align     Align Sequences to a Center
+sdists.trace            Edit Transcripts and Sequence Alignments
+stress                  Conciseness of Presentation Measures
+summary.proximus        Summarizing Proximus Objects
+townships               Bertin's Characteristics and Townships Data Set
